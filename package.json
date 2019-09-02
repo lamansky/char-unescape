@@ -1,0 +1,43 @@
+{
+  "name": "char-unescape",
+  "version": "1.0.0",
+  "description": "Removes a given escape sequence from before characters in a string. Correctly handles double-escapes by only unescaping them once.",
+  "keywords": [
+    "string",
+    "character",
+    "char",
+    "escape",
+    "unescape",
+    "slash",
+    "backslash"
+  ],
+  "author": {
+    "name": "Fr. John Lamansky",
+    "url": "lamansky.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/char-unescape",
+  "repository": "lamansky/char-unescape",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "2": "^2.0.0",
+    "escape-string-regexp": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^2.0.0",
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
